@@ -144,6 +144,7 @@
         </select>
       </div>
 
+      
       <div class="font-bold text-sm uppercase text-neutrals-10 mb-4 text-left">Button Style</div>
       <div class="rounded flex justify-between w-9/12 mb-4">
         <button
@@ -153,6 +154,7 @@
           class="bg-neutrals-5 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow">Disabled
           Primary Button</button>
       </div>
+
       <div class="rounded flex justify-between w-9/12 mb-4">
         <button
           class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow flex flex-wrap justify-evenly"><svg
@@ -171,6 +173,7 @@
           </svg>
           Disabled - Icon Left</button>
       </div>
+
       <div class="rounded flex justify-between w-9/12 mb-4">
         <button
           class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow flex flex-wrap justify-evenly">
@@ -188,6 +191,41 @@
               d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
               fill="white" />
           </svg></button>
+      </div>
+
+      <div class="rounded flex justify-between w-9/12 mb-4">
+          <button class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-1 text-brand-6 text-sm uppercase w-64 hover:opacity-90 drop-shadow"><span class="bg-neutrals-1 p-2.5 rounded  block">Secondary Button</span></button>
+          <button class="bg-neutrals-5 rounded p-1 text-neutrals-5 text-sm uppercase w-64 hover:opacity-90 drop-shadow"><span class="bg-neutrals-1 p-2.5 rounded block">Disabled Secondary Button</span></button>
+      </div>
+
+      <div class="rounded flex justify-between w-9/12 mb-4">
+          <button class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-1 text-brand-6 text-sm uppercase w-64 hover:opacity-90 drop-shadow"><span class="bg-neutrals-1 p-2.5 rounded  block flex flex-wrap justify-evenly"><svg class="fill-brand-6"
+            width="16" height="16" viewBox="0 0 16 16" fill="" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="" />
+          </svg>Icon Left</span></button>
+          <button class="bg-neutrals-5 rounded p-1 text-neutrals-5 text-sm uppercase w-64 hover:opacity-90 drop-shadow"><span class="bg-neutrals-1 p-2.5 rounded  block flex flex-wrap justify-evenly"><svg class="fill-neutrals-5"
+            width="16" height="16" viewBox="0 0 16 16" fill="" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="" />
+          </svg>Icon Left - Disabled</span></button>
+      </div>
+
+      <div class="rounded flex justify-between w-9/12 mb-4">
+          <button class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-1 text-brand-6 text-sm uppercase w-64 hover:opacity-90 drop-shadow"><span class="bg-neutrals-1 p-2.5 rounded  block flex flex-wrap justify-evenly">Icon Right<svg class="fill-brand-6"
+            width="16" height="16" viewBox="0 0 16 16" fill="" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="" />
+          </svg></span></button>
+          <button class="bg-neutrals-5 rounded p-1 text-neutrals-5 text-sm uppercase w-64 hover:opacity-90 drop-shadow"><span class="bg-neutrals-1 p-2.5 rounded  block flex flex-wrap justify-evenly">Icon Right - Disabled<svg class="fill-neutrals-5"
+            width="16" height="16" viewBox="0 0 16 16" fill="" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="" />
+          </svg></span></button>
       </div>
 
     </div>
