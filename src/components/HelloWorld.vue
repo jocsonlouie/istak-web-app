@@ -1,7 +1,6 @@
 <template>
   <div class="hello flex flex-col gap-4">
     <h1 class="text-3xl font-bold text-white">{{ msg }}</h1>
-    <div class="w-[800px] bg-neutrals-1 rounded p-4 flex flex-col justify-start items-start text-left"> 
     <div class="w-[800px] bg-neutrals-1 rounded p-4 flex flex-col justify-start items-start text-left">
       <div class="font-bold text-sm uppercase text-neutrals-8 text-left">Design System</div>
       <div class="text-4xl font-bold text-neutrals-10 mb-2">Colors</div>
