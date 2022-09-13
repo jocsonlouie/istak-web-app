@@ -2,13 +2,16 @@
   <div class="hello flex flex-col gap-4">
     <h1 class="text-3xl font-bold text-white">{{ msg }}</h1>
     <div class="w-[800px] bg-neutrals-1 rounded p-4 flex flex-col justify-start items-start text-left"> 
+    <div class="w-[800px] bg-neutrals-1 rounded p-4 flex flex-col justify-start items-start text-left">
       <div class="font-bold text-sm uppercase text-neutrals-8 text-left">Design System</div>
       <div class="text-4xl font-bold text-neutrals-10 mb-2">Colors</div>
-      <p class=" mb-4 ">We use colors purposefully to communicate how things function in the interface. This helps us create visual patterns that can make interacting with users easier and more predictable.</p>
-      
+      <p class=" mb-4 ">We use colors purposefully to communicate how things function in the interface. This helps us
+        create visual patterns that can make interacting with users easier and more predictable.</p>
+
       <div class="font-bold text-sm uppercase text-neutrals-10 mb-4 text-left">Main Color Pallete</div>
 
-      <div class="font-bold text-lg text-neutrals-9 text-left">P06 – <span class=" text-brand-6 ">FOREST GREEN</span></div>
+      <div class="font-bold text-lg text-neutrals-9 text-left">P06 – <span class=" text-brand-6 ">FOREST GREEN</span>
+      </div>
       <div class="rounded flex justify-between w-full mb-4">
         <div class="bg-brand-1 w-full h-12"></div>
         <div class="bg-brand-2 w-full h-12"></div>
@@ -22,7 +25,8 @@
         <div class="bg-brand-10 w-full h-12"></div>
       </div>
 
-      <div class="font-bold text-lg text-neutrals-9 text-left">PD06 – <span class=" text-brandDark-6 ">AUTUMN PINE GREEN</span></div>
+      <div class="font-bold text-lg text-neutrals-9 text-left">PD06 – <span class=" text-brandDark-6 ">AUTUMN PINE
+          GREEN</span></div>
       <div class="rounded flex justify-between w-full mb-4">
         <div class="bg-brandDark-1 w-full h-12"></div>
         <div class="bg-brandDark-2 w-full h-12"></div>
@@ -36,7 +40,8 @@
         <div class="bg-brandDark-10 w-full h-12"></div>
       </div>
 
-      <div class="font-bold text-lg text-neutrals-9 text-left">S06 – <span class=" text-secondary-6 ">SUNLIGHT GREEN</span></div>
+      <div class="font-bold text-lg text-neutrals-9 text-left">S06 – <span class=" text-secondary-6 ">SUNLIGHT
+          GREEN</span></div>
       <div class="rounded flex justify-between w-full mb-4">
         <div class="bg-secondary-1 w-full h-12"></div>
         <div class="bg-secondary-2 w-full h-12"></div>
@@ -50,7 +55,8 @@
         <div class="bg-secondary-10 w-full h-12"></div>
       </div>
 
-      <div class="font-bold text-lg text-neutrals-9 text-left">SL06 – <span class=" text-secondaryLight-6 ">SPRING YELLOW</span></div>
+      <div class="font-bold text-lg text-neutrals-9 text-left">SL06 – <span class=" text-secondaryLight-6 ">SPRING
+          YELLOW</span></div>
       <div class="rounded flex justify-between w-full mb-4">
         <div class="bg-secondaryLight-1 w-full h-12"></div>
         <div class="bg-secondaryLight-2 w-full h-12"></div>
@@ -123,13 +129,15 @@
       </div>
 
       <div class="font-bold text-sm uppercase text-neutrals-10 mb-4 text-left">Form Style</div>
-      <div >
+      <div>
         <label for="input" class="block text-sm font-medium text-neutral-9 mb-2">Input Label</label>
-        <input type="text" name="input" class="w-full border border-neutrals-4 rounded shadow-sm px-3 py-2 focus:outline-none focus:border-secondary-6 focus:ring-1 focus:ring-brand-6">
+        <input type="text" name="input"
+          class="w-full border border-neutrals-4 rounded shadow-sm px-3 py-2 focus:outline-none focus:border-secondary-6 focus:ring-1 focus:ring-brand-6">
       </div>
       <div>
         <label for="select" class="block text-sm font-medium text-neutral-9 mb-2">Select Input</label>
-        <select name="select" id="select" class="appearance-none w-full border border-neutrals-4 rounded shadow-sm px-3 py-2 focus:outline-none focus:border-secondary-6 focus:ring-1 focus:ring-brand-6">
+        <select name="select" id="select"
+          class="appearance-none w-full border border-neutrals-4 rounded shadow-sm px-3 py-2 focus:outline-none focus:border-secondary-6 focus:ring-1 focus:ring-brand-6">
           <option value="">Select Value</option>
           <option value="">Cassandra Kathrina Brucelo</option>
           <option value="">Louie Jocson</option>
@@ -137,36 +145,82 @@
         </select>
       </div>
 
-
       <div class="font-bold text-sm uppercase text-neutrals-10 mb-4 text-left">Button Style</div>
-      <!-- Here sa button tin -->
+      <div class="rounded flex justify-between w-9/12 mb-4">
+        <button
+          class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow">Primary
+          Button</button>
+        <button
+          class="bg-neutrals-5 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow">Disabled
+          Primary Button</button>
+      </div>
+      <div class="rounded flex justify-between w-9/12 mb-4">
+        <button
+          class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow flex flex-wrap justify-evenly"><svg
+            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="white" />
+          </svg>
+          Icon Left</button>
+        <button
+          class="bg-neutrals-5 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow flex flex-wrap justify-evenly"><svg
+            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="white" />
+          </svg>
+          Disabled - Icon Left</button>
+      </div>
+      <div class="rounded flex justify-between w-9/12 mb-4">
+        <button
+          class="bg-gradient-to-r from-brand-6 to-secondary-6 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow flex flex-wrap justify-evenly">
+          Icon Right<svg
+            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="white" />
+          </svg></button>
+        <button
+          class="bg-neutrals-5 rounded p-3.5 text-neutrals-1 text-sm uppercase w-64 hover:opacity-90 drop-shadow flex flex-wrap justify-evenly">
+          Disabled - Icon Right<svg
+            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6663 8.66665H8.66634V12.6666H7.33301V8.66665H3.33301V7.33331H7.33301V3.33331H8.66634V7.33331H12.6663V8.66665Z"
+              fill="white" />
+          </svg></button>
+      </div>
+
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  export default {
+    name: 'HelloWorld',
+    props: {
+      msg: String
+    }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  h3 {
+    margin: 40px 0 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  a {
+    color: #42b983;
+  }
 </style>
