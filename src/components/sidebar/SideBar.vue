@@ -56,6 +56,20 @@ export default {
             </div>
             <div class="bottom-link">
                 <SidebarLink to="/" icon="fa-solid fa-user-gear">Account</SidebarLink>
+                <!-- <SidebarLink to="/" icon="fa-solid fa-right-from-bracket">Logout
+                </SidebarLink> -->
+                <button @click="handleSignOut" v-if="isLoggedIn"
+                    class="link text-secondary-6 py-5 my-2 pl-3 hover:text-brand-6 hover:border-l-4 hover:border-brand-6 focus:border-l-4 focus:border-brand-6 focus:text-brand-6"
+                    :class="{ active: isActive }">
+                    <font-awesome-icon class="fa-solid  fa-right-from-bracket mr-3" />
+                    Logout
+                </button>
+                <SidebarLink to="/" icon="fa-solid fa-barcode">Barcodes</SidebarLink>
+                <SidebarLink to="/suppliers" icon="fa-solid fa-truck-field">Suppliers</SidebarLink>
+                <SidebarLink to="/userroles" icon="fa-solid fa-users-gear">User Roles</SidebarLink>
+            </div>
+            <div class="bottom-link">
+                <SidebarLink to="/account" icon="fa-solid fa-user-gear">Account</SidebarLink>
                 <SidebarLink to="/" icon="fa-solid fa-right-from-bracket">Logout</SidebarLink>
             </div>
         </div>
