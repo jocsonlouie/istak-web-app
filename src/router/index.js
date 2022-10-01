@@ -7,6 +7,10 @@ import VaccinesView from '../views/VaccinesView.vue'
 import BarcodesView from '../views/BarcodesView.vue'
 import SuppliersView from '../views/SuppliersView.vue'
 import Register from '../views/Register.vue'
+import UserRoles from '../views/UserRoles.vue'
+import AccountSettings from '../views/AccountSettings.vue'
+import AccountEdit from '../views/AccountEdit.vue'
+
 
 
 const routes = [
@@ -59,6 +63,30 @@ const routes = [
     path: '/suppliers',
     name: 'Suppliers',
     component: SuppliersView,
+    meta: {
+      requiresAuth: true,
+    }
+  },
+  {
+    path: '/userroles',
+    name: 'UserRoles',
+    component: UserRoles,
+    meta: {
+      requiresAuth: true,
+    }
+  },
+  {
+    path: '/account',
+    name: 'AccountSetting',
+    component: AccountSettings,
+    meta: {
+      requiresAuth: true,
+    }
+  },
+  {
+    path: '/accountedit',
+    name: 'AccountEdt',
+    component: AccountEdit,
     meta: {
       requiresAuth: true,
     }
