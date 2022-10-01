@@ -8,6 +8,9 @@ import BarcodesView from '../views/BarcodesView.vue'
 import SuppliersView from '../views/SuppliersView.vue'
 import Register from '../views/Register.vue'
 
+import UserRoles from '../views/UserRoles.vue'
+import AccountSettingsView from '../views/AccountSettingsView.vue'
+import AccountEditView from '../views/AccountEditView.vue'
 
 const routes = [
   {
@@ -62,6 +65,16 @@ const routes = [
     meta: {
       requiresAuth: true,
     }
+  },
+  {
+    path: '/account',
+    name: '/Account',
+    component: AccountSettingsView
+  },
+  {
+    path: '/accountedit',
+    name: '/AccountEdt',
+    component: AccountEditView
   },
   {
     path: '/about',
